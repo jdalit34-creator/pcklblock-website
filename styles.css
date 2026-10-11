@@ -123,3 +123,13 @@
 .site-footer .brand-word{display:inline-block;white-space:nowrap;color:#FAF7F4!important;letter-spacing:-.035em}
 .site-footer .brand-logo{background:#FAF7F4;border-radius:4px;padding:3px}
 .site-footer .brand-light{color:#D5D5D5!important}
+
+
+/* Gear pricing: paddles and the current PCKL BOL NEO ball */
+.gear-pricing-card{margin-top:18px}
+.gear-pricing-card h3{margin:0 0 16px}
+.gear-pricing-card .rate-line{align-items:center;gap:16px}
+.gear-pricing-card .rate-line>div{min-width:0}
+.gear-pricing-card .rate-line span{max-width:230px}
+.gear-pricing-card .rate-line .text-link{white-space:nowrap;font-weight:700}
+@media(max-width:520px){.gear-pricing-card .rate-line{align-items:flex-start}.gear-pricing-card .rate-line span{max-width:190px}}
