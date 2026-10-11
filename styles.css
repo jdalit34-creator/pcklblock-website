@@ -67,11 +67,11 @@
 :root{--lime:#C7C7C7;--lime-2:#D5D5D5}
 .hero{color:#5b3b2a;background:radial-gradient(ellipse at 78% 45%,rgba(191,216,176,.34),transparent 45%),linear-gradient(125deg,#fff 0%,#faf7f4 100%)}
 .hero h1{color:#5b3b2a}
-.hero h1 span,.section-heading h2 span{color:#587B4F}
-.hero .eyebrow,.hero .hero-side-note span,.court-lines{color:#587B4F}
+.hero h1 span,.section-heading h2 span{color:#7B7772}
+.hero .eyebrow,.hero .hero-side-note span,.court-lines{color:#7B7772}
 .hero .pulse,.hero .live-dot{background:#C7C7C7;box-shadow:0 0 0 4px rgba(191,216,176,.38)}
 .hero .hero-meta strong{color:#5b3b2a}
-.hero .hero-meta .rate-unit{color:#587B4F}
+.hero .hero-meta .rate-unit{color:#7B7772}
 .image-stamp{background:#C7C7C7;color:#30271f;box-shadow:0 8px 24px rgba(40,35,26,.16)}
 .image-stamp span{color:#354A35}
 .button-lime{background:#C7C7C7;color:#293A2A;border-color:#C7C7C7}
@@ -80,8 +80,8 @@
 .booking-strip .mini-label{color:#354A35}
 .booking-strip .button-dark{background:#5b3b2a;color:#fff;border-color:#5b3b2a}
 .booking-strip .button-dark:hover{background:#704a34}
-.eyebrow,.mini-label{color:#587B4F}
-.rule-number,.rule-icon,.rule-tag,.support-details>a b,.faq summary:after{color:#587B4F}
+.eyebrow,.mini-label{color:#7B7772}
+.rule-number,.rule-icon,.rule-tag,.support-details>a b,.faq summary:after{color:#7B7772}
 .rule-icon{border-color:rgba(143,177,127,.75)}
 .rule-cta{background:#C7C7C7;color:#293A2A}
 .rule-cta .eyebrow,.rule-cta p:not(.eyebrow){color:#354A35}
@@ -90,10 +90,10 @@
 .location-next .location-details .eyebrow,.coming-soon,.location-next .text-link{color:#D5D5D5}
 .next-pattern{background:linear-gradient(130deg,#C7C7C7,#5b3b2a)}
 .neo-sticker,.neo-image-caption{background:#C7C7C7;color:#293A2A}
-.feature-list>div>span{color:#587B4F}
+.feature-list>div>span{color:#7B7772}
 .back-top,.footer-bottom a{color:#D5D5D5}
-.main-nav a:hover,.text-link:hover{color:#587B4F}
-@media(max-width:780px){.main-nav{background:#faf7f4}.main-nav a{color:#5b3b2a}.main-nav a:hover{color:#587B4F}.menu-toggle span{background:#5b3b2a}}
+.main-nav a:hover,.text-link:hover{color:#7B7772}
+@media(max-width:780px){.main-nav{background:#faf7f4}.main-nav a{color:#5b3b2a}.main-nav a:hover{color:#7B7772}.menu-toggle span{background:#5b3b2a}}
 
 
 /* Footer brand contrast: readable wordmark on the dark footer */
@@ -111,7 +111,7 @@
 .site-footer .brand-logo{background:#FAF7F4;border-radius:4px;padding:2px}
 .button-lime,.booking-strip,.rule-cta,.location-status,.neo-sticker,.neo-image-caption,.image-stamp{background-color:#C7C7C7;color:#293A2A;border-color:#C7C7C7}
 .button-lime:hover{background-color:#D5D5D5;border-color:#D5D5D5;color:#293A2A}
-.hero h1 span,.section-heading h2 span,.eyebrow,.mini-label,.rule-number,.rule-icon,.rule-tag,.feature-list>div>span,.support-details>a b,.faq summary:after,.main-nav a:hover,.text-link:hover{color:#587B4F}
+.hero h1 span,.section-heading h2 span,.eyebrow,.mini-label,.rule-number,.rule-icon,.rule-tag,.feature-list>div>span,.support-details>a b,.faq summary:after,.main-nav a:hover,.text-link:hover{color:#7B7772}
 .hero .pulse,.hero .live-dot,.location-status i{background:#C7C7C7;box-shadow:0 0 0 4px rgba(191,216,176,.38)}
 .rule-icon{border-color:rgba(143,177,127,.75)}
 .booking-strip .mini-label,.rule-cta .eyebrow,.rule-cta p:not(.eyebrow),.image-stamp span{color:#354A35}
@@ -133,3 +133,61 @@
 .gear-pricing-card .rate-line span{max-width:230px}
 .gear-pricing-card .rate-line .text-link{white-space:nowrap;font-weight:700}
 @media(max-width:520px){.gear-pricing-card .rate-line{align-items:flex-start}.gear-pricing-card .rate-line span{max-width:190px}}
+
+
+/* Muted grey-sage accent: soft green, never neon */
+:root{--sage:#AABBA2;--sage-ink:#7B7772;--sage-hover:#BDCCB6}
+.button-lime,.booking-strip,.rule-cta,.location-status,.neo-sticker,.neo-image-caption,.image-stamp{background-color:var(--sage);border-color:var(--sage);color:#29352B}
+.button-lime:hover{background-color:var(--sage-hover);border-color:var(--sage-hover);color:#29352B}
+.hero h1 span,.section-heading h2 span,.eyebrow,.mini-label,.rule-number,.rule-icon,.rule-tag,.feature-list>div>span,.support-details>a b,.faq summary:after,.main-nav a:hover,.text-link:hover{color:var(--sage-ink)}
+.hero .pulse,.hero .live-dot,.location-status i{background:var(--sage);box-shadow:0 0 0 4px rgba(170,187,162,.28)}
+.rule-icon{border-color:rgba(113,133,107,.6)}
+.booking-strip .mini-label,.rule-cta .eyebrow,.rule-cta p:not(.eyebrow),.image-stamp span{color:#354435}
+.gear-pricing-card .discontinued-line{opacity:.76}
+.gear-pricing-card .status-label{font:600 10px/1.3 var(--mono);letter-spacing:.04em;color:#7b7772;border:1px solid #c8c2bc;padding:5px 7px;white-space:nowrap}
+.gear-pricing-card .neo-price-line{background:rgba(170,187,162,.17);margin:8px -12px;padding:12px;border-radius:4px}
+.gear-pricing-card .neo-price-line> b{color:var(--sage-ink);font-size:22px;white-space:nowrap}
+.gear-pricing-card .neo-price-line small{font-size:11px}
+@media(max-width:520px){.gear-pricing-card .status-label{font-size:9px;padding:4px 5px}.gear-pricing-card .neo-price-line{margin-inline:-6px;padding:10px 6px}}
+
+
+/* Final contrast correction: all accent typography uses the site's neutral gray */
+.hero h1 span,
+.section-heading h2 span,
+.eyebrow,
+.mini-label,
+.rule-number,
+.rule-icon,
+.rule-tag,
+.feature-list>div>span,
+.support-details>a b,
+.faq summary:after,
+.main-nav a:hover,
+.text-link:hover,
+.hero .eyebrow,
+.hero .hero-side-note span,
+.hero .hero-meta .rate-unit {
+  color: #7B7772 !important;
+}
+.pricing-section{background:#F7F5F2;color:#5B3B2A}
+.pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+.pricing-grid .info-card{height:100%;color:#5B3B2A}
+.pricing-grid .info-card h3{color:#5B3B2A}
+.pricing-grid .rate-line>b{color:#5B3B2A}
+.pricing-grid .rate-line small{color:#7B7772}
+.pricing-grid .neo-price-line{background:#E9E7E2;margin:8px -12px;padding:12px;border-radius:4px}
+.pricing-grid .neo-price-line>b{color:#5B3B2A!important;font-size:24px}
+.pricing-grid .status-label{font:600 10px/1.3 var(--mono);letter-spacing:.04em;color:#7B7772;border:1px solid #C7C3BD;padding:5px 7px;white-space:nowrap}
+.pricing-grid .discontinued-line{opacity:.82}
+.pricing-grid .button-lime{margin-top:12px}
+@media(max-width:780px){.pricing-grid{grid-template-columns:1fr}}
+
+
+/* Booking section spacing refinement: stretch the calendar card to align with the right column and let the embed fill available height. */
+.booking-layout{align-items:stretch;}
+.booking-layout > .calendar-card{display:grid;grid-template-rows:auto minmax(0,1fr) auto;min-height:0;height:100%;}
+.booking-layout > .calendar-card .calendar-frame{height:auto;min-height:610px;}
+.booking-layout > .calendar-card .calendar-frame iframe{height:100%;min-height:610px;}
+.booking-layout > .booking-aside{align-content:stretch;}
+@media(max-width:1000px){.booking-layout > .calendar-card .calendar-frame,.booking-layout > .calendar-card .calendar-frame iframe{min-height:580px;}}
+@media(max-width:780px){.booking-layout{align-items:initial;}.booking-layout > .calendar-card{height:auto;}.booking-layout > .calendar-card .calendar-frame,.booking-layout > .calendar-card .calendar-frame iframe{min-height:570px;}}
