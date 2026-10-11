@@ -62,3 +62,35 @@
 .footer-top p{color:#e6e2de}
 .footer-bottom{color:#e6e2de}
 @media(max-width:760px){.site-header{background:rgba(255,255,255,.98)}}
+
+/* Brand refinement: original warm neutrals + pickleball green accent */
+:root{--lime:#8ca84b;--lime-2:#a5bd69}
+.hero{color:#5b3b2a;background:radial-gradient(ellipse at 78% 45%,rgba(140,168,75,.16),transparent 45%),linear-gradient(125deg,#fff 0%,#faf7f4 100%)}
+.hero h1{color:#5b3b2a}
+.hero h1 span,.section-heading h2 span{color:#6f8b36}
+.hero .eyebrow,.hero .hero-side-note span,.court-lines{color:#6f8b36}
+.hero .pulse,.hero .live-dot{background:#8ca84b;box-shadow:0 0 0 4px rgba(140,168,75,.18)}
+.hero .hero-meta strong{color:#5b3b2a}
+.hero .hero-meta .rate-unit{color:#6f8b36}
+.image-stamp{background:#8ca84b;color:#30271f;box-shadow:0 8px 24px rgba(40,35,26,.16)}
+.image-stamp span{color:#33441e}
+.button-lime{background:#8ca84b;color:#282f1d;border-color:#8ca84b}
+.button-lime:hover{background:#a5bd69;border-color:#a5bd69;color:#282f1d}
+.booking-strip{background:#8ca84b;color:#282f1d}
+.booking-strip .mini-label{color:#33441e}
+.booking-strip .button-dark{background:#5b3b2a;color:#fff;border-color:#5b3b2a}
+.booking-strip .button-dark:hover{background:#704a34}
+.eyebrow,.mini-label{color:#6f8b36}
+.rule-number,.rule-icon,.rule-tag,.support-details>a b,.faq summary:after{color:#6f8b36}
+.rule-icon{border-color:rgba(140,168,75,.55)}
+.rule-cta{background:#8ca84b;color:#282f1d}
+.rule-cta .eyebrow,.rule-cta p:not(.eyebrow){color:#33441e}
+.location-status{background:#8ca84b;color:#282f1d}
+.location-status i{background:#33441e}
+.location-next .location-details .eyebrow,.coming-soon,.location-next .text-link{color:#a5bd69}
+.next-pattern{background:linear-gradient(130deg,#8ca84b,#5b3b2a)}
+.neo-sticker,.neo-image-caption{background:#8ca84b;color:#282f1d}
+.feature-list>div>span{color:#6f8b36}
+.back-top,.footer-bottom a{color:#a5bd69}
+.main-nav a:hover,.text-link:hover{color:#6f8b36}
+@media(max-width:780px){.main-nav{background:#faf7f4}.main-nav a{color:#5b3b2a}.main-nav a:hover{color:#6f8b36}.menu-toggle span{background:#5b3b2a}}
